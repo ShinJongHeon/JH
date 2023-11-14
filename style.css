@@ -5,19 +5,21 @@ body {
     padding: 0;
     box-sizing: border-box;
     background-color: #f4f4f4;
+    font-size: 16px; /* 폰트 사이즈 증가 */
 }
 
 /* 헤더 스타일링 */
 header {
-    background-color: #007bff; /* 밝은 파란색 */
+    background-color: #007bff;
     color: white;
-    padding: 20px 0;
+    padding: 40px 0; /* 패딩 두 배 증가 */
     text-align: center;
-    box-shadow: 0 2px 4px rgba(0,0,0,0.1); /* 그림자 효과 */
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* 그림자 크기 조절 */
 }
 
 header h1 {
     margin: 0;
+    font-size: 32px; /* 폰트 사이즈 증가 */
 }
 
 /* 푸터 스타일링 */
@@ -25,34 +27,35 @@ footer {
     background-color: #333;
     color: white;
     text-align: center;
-    padding: 10px 0;
+    padding: 20px 0; /* 패딩 두 배 증가 */
     position: relative;
     bottom: 0;
     width: 100%;
-    box-shadow: 0 -2px 4px rgba(0,0,0,0.1);
+    box-shadow: 0 -4px 8px rgba(0,0,0,0.1); /* 그림자 크기 조절 */
 }
 
 /* 컨테이너 스타일링 */
 .container1, .container2 {
     width: 80%;
-    margin: 20px auto;
-    padding: 20px;
+    margin: 40px auto; /* 마진 두 배 증가 */
+    padding: 40px; /* 패딩 두 배 증가 */
     background-color: white;
-    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* 그림자 크기 조절 */
 }
 
 /* 결과 표시 상자 스타일링 */
 .result-box {
-    background-color: #f9f9f9; /* 밝은 회색 배경 */
-    border: 1px solid #ddd; /* 연한 회색 테두리 */
-    padding: 15px;
-    margin-top: 10px;
-    border-radius: 5px; /* 상자 모서리 둥글게 */
-    box-shadow: 0 2px 4px rgba(0,0,0,0.1); /* 그림자 효과 */
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    padding: 30px; /* 패딩 두 배 증가 */
+    margin-top: 20px; /* 마진 두 배 증가 */
+    border-radius: 10px; /* 둥근 모서리 크기 조절 */
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* 그림자 크기 조절 */
     text-align: left;
 }
 
 .result-box p {
-    margin: 10px 0; /* 상하 마진 */
-    color: #333; /* 어두운 회색 텍스트 */
+    margin: 20px 0; /* 상하 마진 두 배 증가 */
+    color: #333;
+    font-size: 16px; /* 폰트 사이즈 증가 */
 }
