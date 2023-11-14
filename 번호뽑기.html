@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>랜덤 번호 생성기</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <div class="container1">
+        <h1>랜덤 번호 생성기</h1>
+        
+        <input type="number" id="minNumber" placeholder="최소값">
+        <input type="number" id="maxNumber" placeholder="최대값">
+        <input type="number" id="quantity" placeholder="뽑을 번호의 개수">
+        <button onclick="generateNumbers()">번호 뽑기</button>
+        
+    <div class="result-box">
+        <p id="numbersDisplay"></p>
+    </div>
+    </div>
+   <div class="container2">
+    <h1>고급 랜덤 번호 생성기</h1>
+    
+    <input type="number" id="minNumber2" placeholder="최소값">
+    <input type="number" id="maxNumber2" placeholder="최대값">
+    <input type="number" id="quantity2" placeholder="뽑을 번호의 개수">
+    <button onclick="initializeNumbers()">번호 초기화</button>
+    <button onclick="generateMultipleUniqueNumbers()">번호뽑기</button>
+    
+    <div class="result-box">
+        <p>뽑힌 번호: <span id="uniqueNumbersDisplay"></span></p>
+    </div>
+    <div class="result-box">
+        <p>이미 뽑힌 번호: <span id="usedNumbersDisplay"></span></p>
+    </div>
+    <div class="result-box">
+        <p id="remainingNumbersDisplay">남은 번호 개수: </p>
+    </div>
+</div>
+    <script src="번호뽑기.js"></script>
+</body>
+</html>
